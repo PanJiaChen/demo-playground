@@ -1,0 +1,27 @@
+{
+  "name": "demo-playground",
+  "version": "1.0.0",
+  "description": "Play with JS/CSS/HTML so simple it hurts",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "run-p build server",
+    "server": "node server",
+    "build": "rollup -c -w",
+    "lint": "eslint --ext .js src"
+  },
+  "author": "Pan <panfree23@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-plugin-external-helpers": "6.22.0",
+    "babel-preset-env": "1.6.1",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "live-server": "1.2.0",
+    "npm-run-all": "4.1.2",
+    "rollup": "0.58.2",
+    "rollup-plugin-babel": "3.0.4"
+  },
+  "dependencies": {}
+}
